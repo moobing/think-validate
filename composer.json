@@ -1,0 +1,18 @@
+{
+    "name": "mbing/think-validate",
+    "description": "thinkphp validate，thinkphp6.0的路由验证器中间件 - 验证器自动验证：在API接口开发过程中，往往需要先写好验证器再到路由或者控制器中引入对应的验证器以完成参数校验，现在可以使用本路由中间件接管，实现自动验证，让你的接口开发快人一步！",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "mbing",
+            "email": "gamedevil520@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "mbing\\middleware\\": "src"
+        }
+    }
+}
